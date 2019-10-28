@@ -1,0 +1,56 @@
+@media screen and (max-width: 740px) {
+
+	body { font-size: 0.8em; }	
+
+	header h1 a, header h1 a:hover { padding: 5px; }
+
+	div#container { width: auto; }
+
+	footer .footer-content ul { margin-bottom: 15px; }
+
+	footer .footer-content ul.endfooter { margin-bottom: 0px; }
+
+	.width { width:auto; padding-left: 10px; padding-right: 10px; }
+	
+	#content, aside.sidebar { float: none; width: auto; }
+
+	footer .footer-content ul { width: auto; float: none; }
+}
+
+
+@media screen and (max-width: 540px) {
+
+
+	body { font-size: 0.8em; }
+
+	header { text-align: center; }
+
+	header h1 a, header h1 a:hover { text-align: center;  padding: 0px; font-size: 1.1em; }
+
+	header h1 { padding: 5px 0; }
+	
+	nav { height: auto; position: relative; }
+
+	nav ul li, .sf-menu li { margin: 0px; float: none;  padding: 0; }
+
+	nav ul li a { padding: 5px 10px; float: none; }
+
+	nav ul li li { margin: 0; }
+
+	.sf-menu ul { position: relative; width: auto; padding: 0; margin: 0; }
+
+	nav .width { padding: 0; }
+
+	.sf-menu li:hover ul, .sf-menu li.sfHover ul { top: 0px; }
+
+	div.slides-container p { font-size: 0.9em; }
+	
+	div.slides-container h2 { font-size: 1.8em; }
+
+	div.slides-container { height: 100px; overflow: scroll; }
+
+}
+
+@media screen and (max-width: 350px) {
+	div.slides-container { height: 215px; }
+}

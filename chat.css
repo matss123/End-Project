@@ -1,0 +1,36 @@
+body {
+    
+    background-color: #eee;
+  }
+.col{
+    background-color: darkgrey;
+}
+
+.img-col{
+padding: 0 !important;
+text-align: center;
+}
+.mesage-col{
+    padding: 0;
+
+}
+
+.img-col img{
+    height: 4px;
+    max-width: 3px;
+    border-radius: 60%;
+    width: 100%;
+}
+.container{
+    position: relative;
+    height:10px;
+}
+.row:last-child{
+    position: absolute;
+    width: 100%;
+    bottom:0;
+}
+
+ /* .input-row .col-md-8{ 
+ width: 100%;
+}  */
